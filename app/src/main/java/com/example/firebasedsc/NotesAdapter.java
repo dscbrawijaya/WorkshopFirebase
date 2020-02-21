@@ -62,8 +62,8 @@ public class NotesAdapter extends RecyclerView.Adapter<NotesAdapter.ViewHolder> 
             // to access the context from any ViewHolder instance.
             super(itemView);
 
-            nameTextView = (TextView) itemView.findViewById(R.id.name);
-            noteTextView = (TextView) itemView.findViewById(R.id.note);
+            nameTextView = itemView.findViewById(R.id.name);
+            noteTextView = itemView.findViewById(R.id.note);
         }
     }
 
